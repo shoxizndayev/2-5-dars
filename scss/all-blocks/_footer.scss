@@ -32,36 +32,10 @@
     list-style-type: none;
 }
 
-.facebook:hover {
-    opacity: 0.5;
+.icon__link {
+    transition: opacity 0.2s ease;
 }
 
-.facebook::before {
-	background-image: url(../img/Path.svg);
-	background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
-    display: block;
-	margin: 0 auto;
-	content: '';
-}
-
-.twitter::before {
-	background-image: url(../img/Path-1.svg);
-	background-repeat: no-repeat;
-    width: 24px;
-    height: 20px;
-    display: block;
-	margin: 0 auto;
-	content: '';
-}
-
-.instagram::before {
-    background-image: url(../img/Shape.svg);
-	background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
-    display: block;
-	margin: 0 auto;
-	content: '';
+.icon__link:hover {
+    opacity: 0.7;
 }
