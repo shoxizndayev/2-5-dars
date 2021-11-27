@@ -1,0 +1,113 @@
+.choose .container {
+    position: relative;
+    margin-bottom: 400px;
+}
+
+.choose__top {
+    width: 1280px;
+    height: 577px;
+    background-color: rgba(44, 52, 62, 1);
+    padding: 100px 370px;
+    border-radius: 10px;
+    color: rgba(254, 252, 247, 1);
+    z-index: 5;
+}
+
+.choose__top__heading {
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.choose__top__text {
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.8;
+    margin: 0;
+}
+
+// Bottom
+
+.choose__list {
+    position: absolute;
+    top: 65%;
+    left: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 1110px;
+    list-style-type: none;
+    z-index: 20;
+}
+
+.choose__item {
+    padding: 48px;
+    padding-top: 72px;
+    background-color: rgba(14, 135, 132, 1);
+    border-radius: 8px;
+    width: 350px;
+}
+
+.choose__link {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(254, 252, 247, 1);
+}
+
+.choose__item__heading {
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.choose__item__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.best::before {
+	background-image: url(../img/coffee-bean.png);
+	background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    display: block;
+	margin: 0 auto;
+	content: '';
+    margin-bottom: 56px;
+}
+
+.box::before {
+	background-image: url(../img/Combined-box.png);
+	background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    display: block;
+	margin: 0 auto;
+	content: '';
+    margin-bottom: 56px;
+}
+
+.car::before {
+	background-image: url(../img/Combined-car.png);
+	background-repeat: no-repeat;
+    width: 72px;
+    height: 72px;
+    display: block;
+	margin: 0 auto;
+	content: '';
+    margin-bottom: 56px;
+}

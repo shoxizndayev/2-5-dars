@@ -1,0 +1,93 @@
+.types {
+    .container {
+        margin-bottom: 200px;
+    }
+}
+
+.types__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1111px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+
+    &::before {
+        position: absolute;
+        bottom: 80%;
+        background-image: url(../img/our.png);
+        background-repeat: no-repeat;
+        width: 1111px;
+        height: 196px;
+        content: '';
+    }
+
+    .types__item {
+        width: 255px;
+        z-index: 10;
+    }
+}
+
+.types__link {
+    text-decoration: none;
+}
+
+.types__heading {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.types__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.gran::before {
+    width: 255px;
+    height: 195px;
+    display: block;
+	margin: 0 auto;
+	background-image: url(../img/kopi1.png); 
+	background-repeat: no-repeat;
+	content: '';
+}
+
+.planalto::before {
+    width: 256px;
+    height: 195px;
+    display: block;
+	margin: 0 auto;
+	background-image: url(../img/kopi2.png);
+	background-repeat: no-repeat;
+	content: '';
+}
+
+.piccollo::before {
+    width: 256px;
+    height: 195px;
+    display: block;
+	margin: 0 auto;
+	background-image: url(../img/kopi3.png);
+	background-repeat: no-repeat;
+	content: '';
+}
+
+.danche::before {
+    widows: 255px;
+    height: 195px;
+    display: block;
+	margin: 0 auto;
+	background-image: url(../img/kopi4.png);
+	background-repeat: no-repeat;
+	content: ' ';
+}

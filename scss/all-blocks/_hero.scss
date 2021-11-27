@@ -1,0 +1,51 @@
+.hero {
+    .container {
+        background-image: url(../img/Bitmap-cofe.png);
+        background-repeat: no-repeat;
+        width: 1280px;
+        height: 600px;
+        padding: 85px 116px;
+        background-size: 100%;
+        border-radius: 10px;
+        margin-bottom: 260px;
+    }
+}
+
+.hero__heading {
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    width: 495px;
+    color: rgba(254, 252, 247, 1);
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.hero__text {
+    font-size: 16px;
+    font-weight: 400;
+    width: 445px;
+    color: rgba(254, 252, 247, 1);
+    margin: 0;
+    margin-bottom: 56px;
+}
+
+.hero__link {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 220px;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-weight: 900;
+    color: rgba(254, 252, 247, 1);
+    background-color: rgba(14, 135, 132, 1);
+    border-radius: 5px;
+    padding: 15px 30px;
+    transition: background-color 0.2s ease;
+    
+    &:hover {
+        background-color: rgba(102, 210, 207, 1);
+    }
+}
