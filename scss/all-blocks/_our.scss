@@ -1,0 +1,26 @@
+.our .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    margin-bottom: 300px;
+}
+
+.our__text {
+    width: 540px;
+}
+
+.our__heading {
+    font-family: "Fraunces";
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgba(51, 61, 75, 1);
+}
+
+.our__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333D4B;
+    opacity: 0.8;
+}

@@ -1,0 +1,26 @@
+.about__hero .container {
+    background-image: url(../img/2-page/Bitmap.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    width: 1280px;
+    height: 400px;
+    padding: 85px 137px;
+    margin-bottom: 170px;
+}
+
+.about__heading {
+    font-family: "Fraunces";
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(254, 252, 247, 1);
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.about__text {
+    font-size: 16px;
+    font-weight: 400;
+    width: 445px;
+    color: rgba(254, 252, 247, 1);
+}
