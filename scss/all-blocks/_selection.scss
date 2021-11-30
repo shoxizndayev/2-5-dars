@@ -1,0 +1,56 @@
+.selection .container {
+    display: flex;
+}
+
+.selection__left__list {
+    list-style-type: none;
+    width: 255px;
+    margin: 0;
+    padding: 0;
+}
+
+.selection__left__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.item__number {
+    color: rgba(14, 135, 132, 1);
+}
+
+.item__heading {
+    color: rgba(51, 61, 75, 1);
+    transition: color 0.2s ease;
+    margin-left: 25px;
+}
+
+.item__heading:hover {
+    color: rgba(51, 61, 75, 1);
+}
+
+
+.selection__img:active {
+    position: absolute;
+    transform: rotate(180deg);
+    transition: transform 0.2s ease;
+}
+
+.sport__controller {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position:  center;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-size: contain;
+}
+
+.sport__input__tennis:checked + .sport__controller {
+    background-color: rgba(14, 135, 132, 1);
+}
