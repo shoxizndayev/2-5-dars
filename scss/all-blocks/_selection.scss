@@ -1,5 +1,7 @@
 .selection .container {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
 }
 
 .selection__left__list {
@@ -9,6 +11,14 @@
     padding: 0;
 }
 
+.selection__left__item {
+    border-bottom: 1px solid rgba(131, 136, 143, 0.25);
+
+    &:last-child {
+        border-bottom: none;
+    }
+} 
+
 .selection__left__link {
     display: flex;
     align-items: center;
@@ -17,40 +27,162 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    &:active {
+        opacity: 1;
+    }
 }
 
 .item__number {
-    color: rgba(14, 135, 132, 1);
+    color: rgba(131, 136, 143, 1);
 }
 
 .item__heading {
     color: rgba(51, 61, 75, 1);
-    transition: color 0.2s ease;
     margin-left: 25px;
 }
 
-.item__heading:hover {
-    color: rgba(51, 61, 75, 1);
+
+// right section
+
+.right__list__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    margin: 0;
+    margin-bottom: 56px;
+
+    &::after {
+        display: inline-block;
+        background-image: url(../img/scrol.png);
+        content: " ";
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18px;
+        height: 12px;
+    }
 }
 
-
-.selection__img:active {
-    position: absolute;
-    transform: rotate(180deg);
-    transition: transform 0.2s ease;
+.selection__img {
+    margin-left: auto;
 }
 
-.sport__controller {
+.right__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right__item {
+    width: 730px;
+    margin-bottom: 88px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.selection__block {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 228px;
+    height: 250px;
     background-position:  center;
-    margin-right: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
+    padding: 32px 28px;
+    border-radius: 8px;
     background-size: contain;
+    background-color: rgba(244, 241, 235, 1);
+    transition: background-color 0.2s ease;
+
+    & {
+        margin-left: 20px;
+    }
+
+    &:hover {
+        background-color: burlywood;
+    }
 }
 
-.sport__input__tennis:checked + .sport__controller {
+
+.selection__input:checked + .selection__block {
     background-color: rgba(14, 135, 132, 1);
+}
+
+.block__heading {
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.block__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+// order
+
+.order__text {
+    width: 730px;
+    background-color: rgba(44, 52, 62, 1);
+    border-radius: 10px;
+    padding: 27px 64px;
+    margin-bottom: 40px;
+}
+
+.order__heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.order__paragraph {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+strong {
+    color: rgba(14, 135, 132, 1);
+}
+
+.order__link {
+    display: block;
+    background-color: rgba(14, 135, 132, 1);
+    border-radius: 6px;
+    padding: 15px 35.5px;
+    text-decoration: none;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 500px;
+    text-align: center;
+    color: #FEFCF7;
 }

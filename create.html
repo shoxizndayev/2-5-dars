@@ -38,7 +38,12 @@
         </div>
     </header>
 
+    <!-- ====main==== -->
+
     <main>
+
+        <!-- ====create==== -->
+        
     <section class="create">
         <div class="container">
             <h1 class="create__heading">
@@ -51,6 +56,8 @@
 
         </div>
     </section>
+
+    <!-- ====road==== -->
 
     <section class="road">
         <div class="container">
@@ -106,14 +113,16 @@
              </div>
     </section>
 
+    <!-- ====selection==== -->
+
     <section class="selection">
         <div class="container">
             <div class="selection__left">
                 <ol class="selection__left__list">
-                    <li class="selection__left__item"><a class="selection__left__link" href="">
-                        <span class="item__number">
+                    <li class="selection__left__item"><a class="selection__left__link" href="#preferences">
+                        <p class="item__number">
                             01
-                        </span>
+                        </p>
 
                         <h3 class="item__heading">
                             Preferences
@@ -121,10 +130,10 @@
 
                     </a></li>
 
-                    <li class="selection__left__item"><a class="selection__left__link" href="">
-                        <span class="item__number">
+                    <li class="selection__left__item"><a class="selection__left__link" href="#bean">
+                        <p class="item__number">
                             02
-                        </span>
+                        </p>
 
                         <h3 class="item__heading">
                             Bean Type
@@ -132,10 +141,10 @@
 
                     </a></li>
 
-                    <li class="selection__left__item"><a class="selection__left__link" href="">
-                        <span class="item__number">
+                    <li class="selection__left__item"><a class="selection__left__link" href="#quantity">
+                        <p class="item__number">
                             03
-                        </span>
+                        </p>
 
                         <h3 class="item__heading">
                             Quantity
@@ -143,10 +152,10 @@
 
                     </a></li>
 
-                    <li class="selection__left__item"><a class="selection__left__link" href="">
-                        <span class="item__number">
+                    <li class="selection__left__item"><a class="selection__left__link" href="#grind">
+                        <p class="item__number">
                             04
-                        </span>
+                        </p>
 
                         <h3 class="item__heading">
                             Grind Option
@@ -154,10 +163,10 @@
 
                     </a></li>
 
-                    <li class="selection__left__item"><a class="selection__left__link" href="">
-                        <span class="item__number">
+                    <li class="selection__left__item"><a class="selection__left__link" href="#deliveries">
+                        <p class="item__number">
                             05
-                        </span>
+                        </p>
 
                         <h3 class="item__heading">
                             Deliveries
@@ -170,56 +179,366 @@
             </div>
 
             <div class="selection__right">
-                <a href="">
-                    <h4>
-                        How do you drink your coffee <span class="selection__img">
-                            <img
-                            src="./img/Path 2.png" 
-                            alt=""
-                            width="18"
-                            height="12"
-                            ></span>  
-                    </h4>
-                </a>
+                    <ul class="right__list">
+                        <li class="right__item">
+                            <h4 class="right__list__heading" id="preferences">
+                                How do you drink your coffee?
+                            </h4>
+        
+                            <form>
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="a">
+                                    
+                                    <span class="selection__block">
+                                    <p class="block__heading">
+                                        Capsule
+                                    </p>  
+                                    
+                                    <p class="block__text">
+                                        Compatible with Nespresso systems and similar brewers
+                                    </p>
+                                    </span>
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="a">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            Filter
+                                        </p>
+        
+                                        <p class="block__text">
+                                            For pour over or drip methods like Aeropress, Chemex, and V60
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="a">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            Espresso
+                                        </p>
+        
+                                        <p class="block__text">
+                                            Dense and finely ground beans for an intense, flavorful experience
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+                            </form>
+        
+                        </li>
 
-                    <form>
-                        <label class="sport__label">
-            
-                            <input class="sport__input__tennis visually-hidden" type="radio" name="sport">
-                            
-                            <span class="sport__controller">
-                            <span>
-                                cofee
-                            </span>  
-                            
-                            <span>
-                                Lorem ipsum dolor sit.
-                            </span>
-                            </span>
-                        </label>
+                        <li class="right__item">
+                            <h4 class="right__list__heading" id="bean">
+                                What type of coffee?
+                            </h4>
+        
+                            <form>
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="b">
+                                    
+                                    <span class="selection__block">
+                                    <p class="block__heading">
+                                        Single Origin
+                                    </p>  
+                                    
+                                    <p class="block__text">
+                                        Distinct, high quality coffee from a specific family-owned farm
+                                    </p>
+                                    </span>
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="b">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            Decaf
+                                        </p>
+        
+                                        <p class="block__text">
+                                            Just like regular coffee, except the caffeine has been removed
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="b">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            Blended
+                                        </p>
+        
+                                        <p class="block__text">
+                                            Combination of two or three dark roasted beans of organic coffees
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+                            </form>
+        
+                        </li>
 
-                        <label class="sport__label">
-            
-                            <input class="sport__input__basketbol visually-hidden" type="radio" name="sport">
-                            
-                            <span class="sport__controller"> 
-                                <span>
-                                    cdac
-                                </span>
+                        <li class="right__item">
+                            <h4 class="right__list__heading" id="quantity">
+                                How much would you like? 
+                            </h4>
+        
+                            <form>
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="c">
+                                    
+                                    <span class="selection__block">
+                                    <p class="block__heading">
+                                        250g
+                                    </p>  
+                                    
+                                    <p class="block__text">
+                                        Perfect for the solo drinker. Yields about 12 delicious cups.
+                                    </p>
+                                    </span>
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="c">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            500g
+                                        </p>
+        
+                                        <p class="block__text">
+                                            Perfect option for a couple. Yields about 40 delectable cups.
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="c">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            1000g
+                                        </p>
+        
+                                        <p class="block__text">
+                                            Perfect for offices and events. Yields about 90 delightful cups.
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+                            </form>
+        
+                        </li>
 
-                                <span>
-                                    Lorem ipsum dolor sit amet.
-                                </span>
-                            </span>
-                            
-                        </label>
-                    </form>
+                        <li class="right__item">
+                            <h4 class="right__list__heading" id="grind">
+                                Want us to grind them?
+                            </h4>
+        
+                            <form>
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="d">
+                                    
+                                    <span class="selection__block">
+                                    <p class="block__heading">
+                                        Wholebean
+                                    </p>  
+                                    
+                                    <p class="block__text">
+                                        Best choice if you cherish the full sensory experience
+                                    </p>
+                                    </span>
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="d">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            Filter
+                                        </p>
+        
+                                        <p class="block__text">
+                                            For drip or pour-over coffee methods such as V60 or Aeropress
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="d">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            Cafetiére
+                                        </p>
+        
+                                        <p class="block__text">
+                                            Course ground beans specially suited for french press coffee
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+                            </form>
+        
+                        </li>
 
+                        <li class="right__item">
+                            <h4 class="right__list__heading" id="deliveries">
+                                How often should we deliver?
+                            </h4>
+        
+                            <form>
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="e">
+                                    
+                                    <span class="selection__block">
+                                    <p class="block__heading">
+                                        Every week
+                                    </p>  
+                                    
+                                    <p class="block__text">
+                                        $7.20 per shipment. Includes free first-class shipping.
+                                    </p>
+                                    </span>
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="e">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            Every 2 weeks
+                                        </p>
+        
+                                        <p class="block__text">
+                                            $9.60 per shipment. Includes free priority shipping.
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+        
+                                <label class="selection__label">
+                    
+                                    <input class="selection__input visually-hidden" type="radio" name="e">
+                                    
+                                    <span class="selection__block"> 
+                                        <p class="block__heading">
+                                            Every month
+                                        </p>
+        
+                                        <p class="block__text">
+                                            $12.00 per shipment. Includes free priority shipping.
+                                        </p>
+                                    </span>
+                                    
+                                </label>
+                            </form>
+        
+                        </li>
+                    </ul>
+
+                    <div class="order__text">
+                        <h5 class="order__heading">
+                            Order Summary
+                        </h5>
+
+                        <p class="order__paragraph">“I drink my coffee as <strong>Filter</strong>, with a <strong>Decaf</strong> type of bean. <strong>250g</strong> ground ala <strong>Cafetiare</strong>, sent to me <strong>Every Week</strong>.”</p>
+                    </div>
+
+                    <a class="order__link" href="#">
+                        Create your plan!
+                    </a>
             </div>
 
         </div>
     </section>
 </main>
+
+<!-- ====footer==== -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__left">
+            <a href="./index.html">
+                <img src="./img/logo-white.svg" 
+                alt="logo of the cooffeeroasters" 
+                width="236" 
+                height="26"
+                >
+            </a>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="./index.html" >
+                        Home
+                    </a></li>
+
+                    <li class="nav__item"><a class="nav__link" href="./about.html">
+                        About us
+                    </a></li>
+
+                    <li class="nav__item"><a class="nav__link" href="./create.html">
+                        Create your plan
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <ul class="icon__list">
+            <li class="icon__item"><a class="icon__link" href="#">
+                <img 
+                src="./img/Path.svg" 
+                alt="icon of the facebook"
+                width="24"
+                height="24"
+                >
+            </a></li>
+
+            <li class="icon__item"><a class="icon__link" href="#">
+                <img 
+                src="./img/Path-1.svg" 
+                alt="icon of the facebook"
+                width="24"
+                height="20"
+                >
+             </a></li>
+
+            <li class="icon__item"><a class="icon__link" href="#">
+                <img 
+                src="./img/Shape.svg" 
+                alt="icon of the facebook"
+                width="24"
+                height="24"
+                >    
+            </a></li>
+        </ul>
+
+    </div>
+</footer>
 
 </body>
 </html>
