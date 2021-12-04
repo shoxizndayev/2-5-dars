@@ -24,3 +24,9 @@
         }
     }
 }
+
+@media only screen and (max-width: 610px){
+    .nav__list:only-child {
+        margin-left: 25px;
+    }
+} 
