@@ -96,17 +96,22 @@
 
 @media only screen and (max-width: 1136px) {
     .types__list {
-        width: 573px;
+        max-width: 100%;
         flex-direction: column;
 
         &::before {
-            bottom: 90%;
-            width: 200%;
+            background-size: contain;
+            bottom: 80%;
         }
     }
 
     .types__item {
         flex-direction: row;
+        width: 60%;
+    }
+
+    .types__link {
+        display: flex;
     }
 
     .types__heading {

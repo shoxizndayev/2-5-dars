@@ -72,3 +72,27 @@
     font-weight: 400;
     color: rgba(51, 61, 75, 1);
 }
+
+@media only screen and (max-width: 425px) {
+    .oval__line {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        border: 0;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+    }
+
+    .works__list {
+        margin: 0 auto;
+        flex-direction: column;
+        width: 327px;
+    }
+
+    .works__item {
+        text-align: center;
+    }
+
+}

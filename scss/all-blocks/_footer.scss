@@ -38,3 +38,21 @@
 .icon__link:hover {
     opacity: 0.7;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        .container {
+            flex-direction: column;
+            margin-bottom: 25px;
+        }
+    }
+
+    .nav__list {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .footer__left {
+        flex-direction: column;
+    }
+}
