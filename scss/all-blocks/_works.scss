@@ -1,5 +1,6 @@
 .works .container {
-    width: 1045px;
+    max-width: 1045px;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 200px;
 }
@@ -89,10 +90,15 @@
         margin: 0 auto;
         flex-direction: column;
         width: 327px;
+        margin-bottom: 40px;
     }
 
     .works__item {
         text-align: center;
+    }
+
+    .hero__link {
+        margin: 0 auto;
     }
 
 }
