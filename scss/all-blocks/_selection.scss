@@ -6,7 +6,7 @@
 
 .selection__left__list {
     list-style-type: none;
-    width: 255px;
+    max-width: 255px;
     margin: 0;
     padding: 0;
 }
@@ -68,7 +68,7 @@
         content: " ";
         background-repeat: no-repeat;
         background-size: contain;
-        width: 18px;
+        max-width: 18px;
         height: 12px;
     }
 }
@@ -84,7 +84,7 @@
 }
 
 .right__item {
-    width: 730px;
+    max-width: 730px;
     margin-bottom: 88px;
 }
 
@@ -95,7 +95,7 @@ form {
 
 .selection__block {
     display: inline-block;
-    width: 228px;
+    max-width: 228px;
     height: 250px;
     background-position:  center;
     padding: 32px 28px;
@@ -138,7 +138,7 @@ form {
 // order
 
 .order__text {
-    width: 730px;
+    max-width: 730px;
     background-color: rgba(44, 52, 62, 1);
     border-radius: 10px;
     padding: 27px 64px;

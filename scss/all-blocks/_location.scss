@@ -1,5 +1,5 @@
 .location .container {
-    width: 1045px;
+    max-width: 1045px;
     margin-bottom: 170px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .location__item {
-    width: 285px;
+    max-width: 285px;
 }
 
 .location__item + .location__item {
@@ -51,7 +51,7 @@
 }
 
 .united::before {
-    width: 40px;
+    max-width: 40px;
     height: 50px;
     display: block;
 	background-image: url(../img/2-page/United-Kingdom.png);
@@ -60,7 +60,7 @@
 }
 
 .canada::before {
-    width: 52px;
+    max-width: 52px;
     height: 50px;
     display: block;
 	background-image: url(../img/2-page/Canada.png);
@@ -69,10 +69,65 @@
 }
 
 .australia::before {
-    width: 49px;
+    max-width: 49px;
     height: 44px;
     display: block;
 	background-image: url(../img/2-page/Canada.png);
 	background-repeat: no-repeat;
 	content: '';
+}
+
+@media only screen and(max-width: 950px) {
+    .location .container {
+        margin-bottom: 150px;
+    }
+
+    .state__heading {
+        margin-bottom: 21px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media only screen and(max-width: 700px) {
+    .location .container {
+        margin-bottom: 120px;
+    }
+
+    .location__heading {
+        text-align: center;
+    }
+
+    .location__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .location__item {
+        margin: 0 auto;
+        text-align: center;
+
+        & + & {
+            margin: 0;
+            margin-top: 80px;
+        }
+    }
+
+    .united::before {
+        margin: 0 auto;
+    }
+
+    .canada::before {
+        margin: 0 auto;
+    }
+
+    .australia::before {
+        margin: 0 auto;
+    }
+
+    .state__heading {
+        margin-bottom: 21px;
+        font-size: 28px;
+        line-height: 36px;
+    }
 }

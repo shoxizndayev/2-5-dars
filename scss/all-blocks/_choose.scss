@@ -4,7 +4,7 @@
 }
 
 .choose__top {
-    width: 1280px;
+    max-width: 1280px;
     height: 577px;
     background-color: rgba(44, 52, 62, 1);
     padding: 100px 370px;
@@ -24,7 +24,7 @@
 }
 
 .choose__top__text {
-    width: 540px;
+    max-width: 540px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -44,7 +44,7 @@
     align-items: center;
     padding: 0;
     margin: 0 auto;
-    width: 1110px;
+    max-width: 1110px;
     list-style-type: none;
     z-index: 20;
 }
@@ -82,7 +82,7 @@
 .best::before {
 	background-image: url(../img/coffee-bean.png);
 	background-repeat: no-repeat;
-    width: 72px;
+    max-width: 72px;
     height: 72px;
     display: block;
 	margin: 0 auto;
@@ -93,7 +93,7 @@
 .box::before {
 	background-image: url(../img/Combined-box.png);
 	background-repeat: no-repeat;
-    width: 72px;
+    max-width: 72px;
     height: 72px;
     display: block;
 	margin: 0 auto;
@@ -104,7 +104,7 @@
 .car::before {
 	background-image: url(../img/Combined-car.png);
 	background-repeat: no-repeat;
-    width: 72px;
+    max-width: 72px;
     height: 72px;
     display: block;
 	margin: 0 auto;
@@ -127,7 +127,7 @@
 
 @media only screen and (max-width: 320px) {
     .choose__item {
-        width: 279px;
+        max-width: 279px;
         padding: 72px 12px;
     }
 

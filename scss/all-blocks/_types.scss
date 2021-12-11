@@ -27,7 +27,7 @@
     }
 
     .types__item {
-        width: 255px;
+        max-width: 255px;
         z-index: 10;
     }
 }
@@ -55,7 +55,7 @@
 }
 
 .gran::before {
-    width: 255px;
+    max-width: 255px;
     height: 195px;
     display: block;
 	margin: 0 auto;
@@ -65,7 +65,7 @@
 }
 
 .planalto::before {
-    width: 256px;
+    max-width: 256px;
     height: 195px;
     display: block;
 	margin: 0 auto;
@@ -75,7 +75,7 @@
 }
 
 .piccollo::before {
-    width: 256px;
+    max-width: 256px;
     height: 195px;
     display: block;
 	margin: 0 auto;
@@ -85,7 +85,7 @@
 }
 
 .danche::before {
-    widows: 255px;
+    max-width: 255px;
     height: 195px;
     display: block;
 	margin: 0 auto;
@@ -125,8 +125,4 @@
 
     
 
-}
-
-@media only screen and (max-width: 1136px) {
-    
 }
